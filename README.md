@@ -9,7 +9,9 @@ Only the end clients and the server can read the message(pre shared key) which w
 
 for compiling and executing:
 Python server.py
+
 on an 2 other terminals for client 1 and client 2:
 Python chatclient_encrypt.py
-enter your name in the terminal, enter the message, after the second message the routing will happen to the client.
-The first message after the name is not routed(I have to still implement a database of clients for this-for logging etc, I have to complete this part...)
+
+Enter your name in the terminal, enter the message, after the second message the routing will happen between clients via sever. The first message after the name is not routed(I have to still implement a database of clients for this-for logging etc, I have to complete this part...)
+
